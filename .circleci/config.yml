@@ -7,7 +7,7 @@ executors:
       image_name: ubuntu
     docker: # Each job requires specifying an executor
     # (either docker, macos, or machine), see
-      - image: circleci/node:latest
+      - image: circleci/node:12
         auth:
             username: $DOCKERHUB_USERNAME
             password: $DOCKERHUB_PASSWORD
