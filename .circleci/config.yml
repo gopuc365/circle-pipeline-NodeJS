@@ -4,7 +4,7 @@ version: 2.1
 executors:
   docker-publisher: 
     environment:
-      IMAGE_NAME: ndukwearm1/docker-node-app
+      IMAGE_NAME: ndukwearm19docker/docker
     docker: # Each job requires specifying an executor
     # (either docker, macos, or machine), see
       - image: circleci/node:latest
